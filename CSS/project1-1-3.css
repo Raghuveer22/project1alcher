@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: cyan;
+    align-content: space-around;
+}
+
+.content .wrapper{
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow:0 5px 5px rgba(0,0,0,0.2) ;
+}
+.wrapper .title {
+height: 150px;
+line-height: 100px;
+background-color: orange;
+color: white;
+padding-left: 10px;
+border-radius: 5px 5px 0 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.wrapper .title .head
+{
+    position: relative;
+    top:40px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.wrapper .title i
+{
+    position: relative;
+    top:40px;
+    font-size: 30px;
+    margin: 30px;
+}
+.wrapper .user img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.wrapper .user{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper .user .details{
+    line-height: 130%;
+    padding-right: 20px;
+}
+.wrapper .user .details .personalname{
+    font-weight: 500;
+    padding-top: 5px;
+    font-size: 25px;
+} 
+.wrapper .description{
+    font-size: 15px;
+    padding: 30px;
+    color: #777;
+}
+.wrapper .options{
+    font-size: 30px;
+    color: #777;
+    padding: 30px;
+
+}
+.wrapper .options .add{
+display: flex;
+align-items: center;
+gap: 30px;
+padding: 10px;
+cursor: pointer;
+}
+.wrapper .options .save{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+} 
+.wrapper .options .save .line,
+.wrapper .options .add .line{
+    font-size: 20px;
+}
+.content .new-post{
+    margin-top: 10px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow:0 5px 5px rgba(0,0,0,0.2);
+}
+.new-post .add{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    color: #777;
+    cursor: pointer;
+}
+.new-post .add .line{
+    font-size: 20px;
+    padding-left: 20px;
+}
+   

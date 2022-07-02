@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: cyan;
+}
+.wrapper{
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.wrapper .title {
+
+line-height: 100px;
+background-color: orange;
+color: white;
+padding-left: 10px;
+border-radius: 5px 5px 0 0;
+height: 200px;
+}
+
+.wrapper .title .register{
+    padding-top: 60px;
+    line-height: 100%;
+}
+.wrapper .title .register .signup-link{
+
+    padding-left: 70px;
+}
+.wrapper .title .head{
+    
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+.wrapper form .row{
+    height:70px;
+    /* background-color: red; */
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 60%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 30px;
+    height: 60%;
+    padding-left: 10px;
+    /* background-color:blue; */
+    /* border: 1px solid black; */
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#777;
+    font-size: 20px;
+}
+
+.wrapper form .row.button input{
+    padding-left: 0;
+    
+    background-color: #fff;
+    border: 1px solid orange;
+    font-weight: 500;
+}

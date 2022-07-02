@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    align-content: space-around;
+align-items: center;
+}
+.container{
+    justify-content: center;
+    height: auto;
+    width: auto;
+    border: 1px solid #777;
+    padding: 10px;
+
+    text-align: left;
+    box-shadow:0 5px 5px rgba(0,0,0,0.2) ;
+    border-radius: 10px;
+}
+.container .title{
+    font-size: 25px;
+   padding-left: 10px;
+   margin: 10px;
+}
+.container .wrapper{
+    position: relative;
+ height: 300px;
+ width: 100%;
+ 
+ border: 2px dashed #c2cdda;
+
+    background-color: aliceblue;
+    border-radius: 10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.wrapper .text{
+    font-size: 30px;
+    color: #777;
+    font-weight: 500;
+}
+.container .caption .caption-title{
+    font-size: 25px;
+   padding-left: 10px;
+   margin: 10px;
+}
+.container .caption,
+.container .img{
+    padding : 20px 20px 0 20px;
+}
+.container .caption textarea{
+    border: 1px dashed #777;
+    outline: none;
+   padding: 10px;
+   font-size: 20px;
+   resize: none;
+   border-radius: 10px;
+   background-color: aliceblue;
+   margin-bottom: 50px;
+}
+.submit,
+.submit input {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.submit{
+    margin-top: 20px;
+    box-shadow:0 5px 5px rgba(0,0,0,0.2) ;
+}
+.submit input
+{
+border: 1px solid orange;
+font-size: 25px;
+color: orange;
+}
