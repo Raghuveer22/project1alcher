@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,36 @@
     <link rel="stylesheet" href="/CSS/project1-1-4.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <div class="container">
         <div class="img">
             <div class="title">Image</div>
             <div class="wrapper">
                 <div class="image">
-                    
+
                 </div>
                 <div class="content">
                     <div class="text">
                         Select image to upload
                     </div>
-                    <input  id="default-btn" type="file">
+                    <input id="default-btn" type="file">
                 </div>
             </div>
         </div>
         <div class="caption">
             <div class="caption-title">Caption</div>
-            <textarea class="caption" id="caption" cols="50" rows="5"></textarea>    
+            <textarea class="caption" id="caption" cols="50" rows="5"></textarea>
+        </div>
+        <div class="location">
+            <h3>Current Location</h3>
+            <button class="location button" id="location-button">Get Location</button>
         </div>
     </div>
-<div class="submit">
-    <input type="submit" id="submit-btn">
-</div>
+    <div class="submit">
+        <input type="submit" id="submit-btn">
+    </div>
+    <script src="/JS/index.js"></script>
 </body>
+
 </html>

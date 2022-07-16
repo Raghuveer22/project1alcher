@@ -87,7 +87,6 @@ align-items: center;
     height: 50px;
     border-radius: 10px;
 }
-
 .submit{
     margin-top: 20px;
     box-shadow:0 5px 5px rgba(0,0,0,0.2) ;
@@ -97,4 +96,20 @@ align-items: center;
 border: 1px solid orange;
 font-size: 25px;
 color: orange;
+}
+.location{
+    font-size: 20px;
+}
+.location.button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.location h3{
+    color:#777;
+    font-weight: 100;
+    padding: 10px;
+
 }
